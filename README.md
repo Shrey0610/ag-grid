@@ -1,4 +1,5 @@
 # Basic Ag Grid App
+- ag-grid: Ag-grid is a fully-featured and highly customizable JavaScript data grid.
 
 ## Getting Started
 
