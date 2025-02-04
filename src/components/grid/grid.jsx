@@ -44,7 +44,7 @@ export default function DisplayGrid() {
   return (
     <>
       <div
-        className="grid ag-theme-alpine-dark"
+        className="grid ag-theme-alpine-dark" 
         style={{ height: 300, width: 1000 }}
       >
         <AgGridReact ref={gridRef} rowData={users} gridOptions={gridOptions} />
