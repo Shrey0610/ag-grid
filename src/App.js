@@ -1,14 +1,12 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Route, HashRouter } from 'react-router-dom';
 import DisplayGrid from './components/grid/grid';
 
 export default function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<DisplayGrid />} exact />
-      </Routes>
-    </Router>
+    <HashRouter>
+      <Route path="/" element={<DisplayGrid />} exact />
+    </HashRouter>
   );
 }
