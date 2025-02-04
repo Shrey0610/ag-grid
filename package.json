@@ -21,7 +21,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
-    "homepage": ".",
+    "homepage": "https://Shrey0610.github.io/ag-grid.github.io/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
