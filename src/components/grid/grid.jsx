@@ -15,8 +15,14 @@ export default function DisplayGrid() {
       sortable: true,
       editable: true,
       filter: true,
+      resizable: true,
+      Selection: true,
     },
     columnDefs: [
+      {
+        field: 'id',
+        checkboxSelection: true,
+      },
       {
         field: 'name',
       },
